@@ -1,0 +1,3 @@
+ - 创建普通全局变量 .env
+ - 创建开发环境变量 .env.development
+ - 创建生产环境变量 .env.production
