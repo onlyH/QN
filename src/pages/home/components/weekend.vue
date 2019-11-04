@@ -22,7 +22,7 @@
   }
 </script>
 <style lang="stylus" scoped>
-  @import "~customCSS/mixins.styl"
+  @import "~@/assets/styles/mixins.styl"
   .week
     height: .8rem
     line-height: .8rem

@@ -23,7 +23,7 @@
   }
 </script>
 <style lang="stylus" scoped>
-  @import "~customCSS/varibles.styl"
+  @import "~@/assets/styles/varibles.styl"
   .header
     display: flex
     line-height: .86rem

@@ -92,7 +92,7 @@
 </script>
 
 <style scoped lang="stylus">
-  @import "~customCSS/mixins.styl"
+  @import "~@/assets/styles/mixins.styl"
   .city
     position: relative
     top: 0

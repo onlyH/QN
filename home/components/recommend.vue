@@ -16,7 +16,7 @@
                     <p class="item-title">{{item.title}}</p>
                     <p class="item-desc">
                         <span class="iconfont icon-jingdiananli_wujiaoxing_shoucanghou star"
-                              v-for="core in item.core"></span>
+                              v-for="core in item.core"/>
                         <span class="comment">{{item.comment}}</span>
                     </p>
                     <p class="item-price">
