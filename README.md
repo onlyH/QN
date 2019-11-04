@@ -1,29 +1,9 @@
-# vue-goto
-
-## Project setup
+1. 根据name可以实现组件自我递归
+ * detail-components-list
+2. keep-alive用法 exclude，include
+3. 页面滚动影响--在router下增加scrollBehavior
 ```
-npm install
+scrollBehavior(to, form, savePosition) {
+    return {x: 0, y: 0}
+  }
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

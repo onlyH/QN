@@ -5,23 +5,26 @@ import Home from './pages/home/home'
 Vue.use(Router)
 
 export default new Router({
-    mode: 'history',
-    base: process.env.BASE_URL,
-    routes: [{
-            path: '/',
-            name: 'home',
-            component: Home
-        },
-        {
-            path: '/city',
-            name: 'city',
-            component: () =>
-                import ('./pages/city/city')
-        },
-      {
-        path:'/detail/:id',
-        name:'detail',
-        component:()=>import('./pages/detail/detail')
-      }
-    ]
+  mode: 'history',
+  base: process.env.BASE_URL,
+  routes: [{
+    path: '/',
+    name: 'home',
+    component: Home
+  },
+    {
+      path: '/city',
+      name: 'city',
+      component: () =>
+        import ('./pages/city/city')
+    },
+    {
+      path: '/detail/:id',
+      name: 'detail',
+      component: () => import('./pages/detail/detail')
+    }
+  ],
+  scrollBehavior(to, form, savePosition) {
+    return {x: 0, y: 0}
+  }
 })
