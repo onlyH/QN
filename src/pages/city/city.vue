@@ -104,7 +104,7 @@
 
     .header
       height: .86rem
-      line-height: .68rem
+      line-height: .86rem
       border-bottom: 0
       background-color: #00bcd4
 
